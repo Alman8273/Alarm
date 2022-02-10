@@ -25,6 +25,7 @@ def actual_time():
 
 #GUI with tkinter
 clock = Tk()
+clock.resizable(0,0)
 clock.title("Alarm Clock")
 clock.geometry("300x150")
 time_format = Label(clock, text= "Enter time in 24 hour format!", fg="black",bg="cyan",font="Arial 14 bold",).place(x=20,y=85)
